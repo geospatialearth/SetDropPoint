@@ -14,11 +14,20 @@
         padding: 0;
         width: 100%;
         height: 100%;
+      }   
+      .ol-mouse-position{
+          left: 10px;
+          top: 90%;
+          color: yellow;
+          z-index: 1000000;
+          background-color: rgba(0,0,0,0.5);
+          width: 130px;
       }
     </style>
   </head>
   <body>
-    <div id="map" class="map"></div>
+      <div id="map" class="map"></div>
+
     <script src="js/main.js"></script>
   </body>
 </html>
